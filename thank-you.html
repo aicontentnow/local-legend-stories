@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>You're in · Local Legend</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;900&family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body { height: 100%; }
+    body {
+      background: #0E1016;
+      color: #FFFFFF;
+      font-family: 'Inter', sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+      padding: 2rem;
+    }
+    .wrap { max-width: 560px; }
+    .badge {
+      display: inline-block;
+      background: #C6F042;
+      color: #0E1016;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 700;
+      font-size: 0.75rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      padding: 0.35rem 0.85rem;
+      border-radius: 999px;
+      margin-bottom: 1.5rem;
+    }
+    h1 {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 900;
+      font-size: clamp(2rem, 5vw, 3rem);
+      line-height: 1.1;
+      margin-bottom: 1rem;
+    }
+    p {
+      font-size: 1.125rem;
+      line-height: 1.7;
+      color: #A0A8B8;
+      margin-bottom: 2rem;
+    }
+    .back {
+      display: inline-block;
+      color: #C6F042;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.95rem;
+    }
+    .back:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="badge">Payment confirmed</div>
+    <h1>You're booked in.</h1>
+    <p>
+      Check your email for next steps. Your story video will be delivered within 2 business days.
+      If you have any questions, email us at hello@locallegend.studio.
+    </p>
+    <a class="back" href="/">Back to Local Legend</a>
+  </div>
+</body>
+</html>
